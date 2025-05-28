@@ -55,7 +55,7 @@ public class lesson35 {
 
     // 動作確認用のmainメソッド
     public static void main(String[] args) {
-        String input = "2 3 + 4 *";
+        String input = "2 3 + 4 *"; 
         int result = evaluate(input);
         System.out.println("計算結果: " + result); // 期待値：20
     }

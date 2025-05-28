@@ -15,7 +15,7 @@ public class lesson33 {
         int removedValue = queue.remove(); // または queue.poll();
 
         // 取り出した値を表示
-        System.out.println("取り出した値: " + removedValue);
+        System.out.println("取り出した値: " + removedValue); //1
 
         // デキュー後のQueueの内容を表示
         System.out.println("デキュー後のキューの内容: " + queue);

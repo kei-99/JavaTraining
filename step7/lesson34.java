@@ -14,7 +14,7 @@ public class lesson34 {
         int headValue = queue.peek();  // または queue.element();
 
         // 確認した値を表示
-        System.out.println("Queueの先頭の要素: " + headValue);
+        System.out.println("Queueの先頭の要素: " + headValue); // 2
 
         // Queueの内容を表示（変わっていないことを確認）
         System.out.println("操作後のQueueの内容: " + queue);
