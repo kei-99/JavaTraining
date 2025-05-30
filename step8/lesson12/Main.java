@@ -8,5 +8,9 @@ public class Main {
         // SMS通知（つうち）＋ グループ宛（あて）
         Notification smsToGroup = new SMSNotification(new GroupNotification());
         smsToGroup.notify("Meeting at 3 PM.");
+
+        // アプリ通知でチーム向け
+        Notification appToTeam = new AppNotification(new TeamNotification());
+        appToTeam.notify("Deploy completed successfully.");
     }
 }
